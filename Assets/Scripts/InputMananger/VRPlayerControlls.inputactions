@@ -1,0 +1,60 @@
+{
+    "name": "VRPlayerControlls",
+    "maps": [
+        {
+            "name": "ControllerRight",
+            "id": "97de4eca-107c-46f6-b15e-08a43bc0c82e",
+            "actions": [
+                {
+                    "name": "TriggerPress",
+                    "type": "Value",
+                    "id": "0671f26f-e316-49cb-8451-008605b65d33",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fcbb466c-efb2-4751-91ab-5e8e51b98640",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerRight>{RightHand}/triggerpressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ControllerLeft",
+            "id": "bec7ef43-4a94-40e0-b1a1-7c04f81e1a61",
+            "actions": [
+                {
+                    "name": "TriggerPress",
+                    "type": "Button",
+                    "id": "f638ee23-7f3b-4db0-aabc-16a2468aa767",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "84df1abf-6018-42b9-bebd-c9561268387c",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerLeft>{LeftHand}/triggerpressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
